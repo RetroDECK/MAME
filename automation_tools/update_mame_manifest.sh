@@ -8,7 +8,7 @@ mame_module="mame-module.yml"
 mame_manifest="net.retrodeck.mame.yml"
 command="/app/bin/mame" 
 
-sed -n '/command/q;p' RetroDECK/net.retrodeck.retrodeck.yml > "$manifest_header"
+# sed -n '/command/q;p' RetroDECK/net.retrodeck.retrodeck.yml > "$manifest_header"  TEMPORARY DISABLED TO TRY A BUILD WITH ANOTHER RUNTIME
 echo -e "command: $command\n" >> "$manifest_header"
 sed -i '/^[[:space:]]*#/d' "$manifest_header"
 sed -i 's/[[:space:]]*#.*$//' "$manifest_header"
