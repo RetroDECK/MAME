@@ -17,6 +17,7 @@ modules:
           TOOLS=1
           USE_QTDEBUG=0
           USE_WAYLAND=1
+          TOOLS=1
           USE_SYSTEM_LIB_FLAC=1
           SDL_INI_PATH='$$HOME/.APP_NAME;/app/share/APP_NAME/ini'
           LDOPTS=-Wl,-s
