@@ -10,8 +10,8 @@ on:
 jobs:
 
   Building_RetroDECK-MAME:
-    runs-on: mame
-    #runs-on: ubuntu-latest
+    #runs-on: retrodeck
+    runs-on: ubuntu-latest
     steps:
 
       # Circumventing this bug: https://github.com/flatpak/flatpak-builder/issues/317
